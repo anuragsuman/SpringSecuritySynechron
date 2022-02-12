@@ -16,6 +16,6 @@ public interface UserMapper {
     @Mappings(
             @Mapping(target = "id",source = "id")
     )
-    public UserDTO map(User user);
+    public UserDTO map(User user   );
 
 }
